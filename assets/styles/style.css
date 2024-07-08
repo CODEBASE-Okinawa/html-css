@@ -1,35 +1,35 @@
 /* 共通 */
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-  line-height: 2
+  line-height: 2;
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
-  word-break: break-all
+  word-break: break-all;
 }
 
 h2 {
   font-size: 30px;
   font-weight: bold;
-  color: #333333
+  color: #333333;
 }
 
 li {
-  list-style: none
+  list-style: none;
 }
 
 img {
   margin: 0;
   padding: 0;
-  vertical-align: bottom
+  vertical-align: bottom;
 }
 
 
@@ -44,17 +44,17 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px
-}
+  padding: 0 40px;
 
-.header__logo {
-  width: 64px;
-  height: 64px
-}
+  .header__logo {
+    width: 64px;
+    height: 64px;
 
-.header__logo img {
-  width: 100%;
-  height: auto
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 }
 
 .header__nav {
@@ -63,17 +63,17 @@ img {
   justify-content: space-around;
   align-items: center;
   gap: 20px;
-  font-size: 14px
-}
+  font-size: 14px;
 
-.header__nav a {
-  color: white;
-  transition: all .3s
-}
+  a {
+    color: white;
+    transition: all .3s;
 
-.header__nav a:hover {
-  opacity: .7;
-  transition: .3s ease-in-out
+    &:hover {
+      opacity: .7;
+      transition: .3s ease-in-out;
+    }
+  }
 }
 
 /* first-view */
@@ -86,36 +86,36 @@ img {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center
-}
+  align-items: center;
 
-.first-view img {
-  width: 400px;
-  height: auto
+  img {
+    width: 400px;
+    height: auto;
+  }
 }
 
 /* CODE BASE OKINAWAとは */
 .about {
   padding: 150px 0;
   text-align: center;
-  color: #888888
-}
+  color: #888888;
 
-.about h2 {
-  margin-bottom: 40px
-}
+  h2 {
+    margin-bottom: 40px;
+  }
 
-.about__images {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 40px
-}
+  .about__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
 
-.about__images img {
-  width: 400px;
-  height: auto
+    img {
+      width: 400px;
+      height: auto;
+    }
+  }
 }
 
 /* CODE BASEのプログラミング講座 */
@@ -123,91 +123,91 @@ img {
   padding: 150px 0;
   text-align: center;
   color: white;
-  background-color: #005bac
-}
+  background-color: #005bac;
 
-.course h2 {
-  margin-bottom: 40px;
-  color: white
+  h2 {
+    margin-bottom: 40px;
+    color: white;
+  }
 }
 
 /* 本講座のゴール */
 .goal {
-  padding: 150px 0
-}
+  padding: 150px 0;
 
-.goal h2 {
-  margin-bottom: 20px;
-  color: #005bac;
-  text-align: center
-}
+  h2 {
+    margin-bottom: 20px;
+    color: #005bac;
+    text-align: center;
+  }
 
-.goal__title {
-  margin-bottom: 40px;
-  font-size: 26px;
-  color: #333333;
-  text-align: center
-}
+  .goal__title {
+    margin-bottom: 40px;
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+  }
 
-.goal__content {
-  width: 1000px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns:1fr 1fr;
-  grid-column-gap: 40px;
-  color: #333333
-}
+  .goal__content {
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-column-gap: 40px;
+    color: #333333;
 
-.goal__image img {
-  width: 100%;
-  height: auto
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 }
 
 /* プログラミング講座に関するトピックス */
 .topics {
   padding: 150px 0;
-  background-color: #e6f3f4
-}
+  background-color: #e6f3f4;
 
-.topics h2 {
-  margin-bottom: 60px;
-  text-align: center
-}
+  h2 {
+    margin-bottom: 60px;
+    text-align: center;
+  }
 
-.topics__content {
-  width: 1000px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns:repeat(3, 1fr);
-  gap: 40px
-}
+  .topics__content {
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 40px;
+  }
 
-.topics__content__item {
-  background-color: white
-}
+  .topics__content__item {
+    background-color: white;
 
-.topics__content__item img {
-  width: 100%;
-  height: auto
-}
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 
-.topics__content__item__inner {
-  padding: 10px 20px 20px
-}
+  .topics__content__item__inner {
+    padding: 10px 20px 20px;
+  }
 
-.topics__content__item__date {
-  font-size: 14px;
-  font-weight: bold;
-  color: #005bac
-}
+  .topics__content__item__date {
+    font-size: 14px;
+    font-weight: bold;
+    color: #005bac;
+  }
 
-.topics__content__item__body {
-  font-size: 14px;
-  color: #333333;
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4
+  .topics__content__item__body {
+    font-size: 14px;
+    color: #333333;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
 }
 
 /* Footer */
@@ -217,37 +217,37 @@ img {
   background-repeat: no-repeat;
   background-color: #95d5e1;
   width: 100%;
-  height: 565px
-}
+  height: 565px;
 
-.footer__inner {
-  width: 1000px;
-  height: 100%;
-  margin: 0 auto;
-  padding: 100px 0 0
-}
+  a {
+    color: #333333;
+    transition: all .3s;
 
-.footer__title {
-  font-size: 28px;
-  font-weight: bold;
-  color: #333333;
-  margin-bottom: 20px
-}
+    &:hover {
+      opacity: .7;
+      transition: .3s ease-in-out;
+    }
+  }
 
-.footer a {
-  color: #333333;
-  transition: all .3s
-}
+  .footer__inner {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 100px 0 0;
+  }
 
-.footer a:hover {
-  opacity: .7;
-  transition: .3s ease-in-out
-}
+  .footer__title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+  }
 
-.footer__copyright {
-  background-color: #005bac;
-  text-align: center;
-  color: #fff;
-  font-size: 16px;
-  padding: 12px 0
+  .footer__copyright {
+    background-color: #005bac;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 0;
+  }
 }
